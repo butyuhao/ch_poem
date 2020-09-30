@@ -80,9 +80,11 @@ class ImgObjExtractor:
 
 
 if __name__ == '__main__':
-    
+    # 指定图片路径
     img_path = r'./data/test4.jpg'
+    # 创建提取器对象
     extractor = ImgObjExtractor()
+    # 调用并获取结果
     ori_dict, obj_dict, season_num, daytime, weather = extractor.extract_single_img(img_path)
     # 原始的提取结果
     print('ori_dict', ori_dict)
