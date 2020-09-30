@@ -95,4 +95,4 @@ if __name__ == '__main__':
     # daytime 0:未知 1:黎明 2:傍晚 3:夜晚
     print('daytime', daytime)
     # weather 0:未知 1:雨 2:雪 3:雾
-    print('daytime', weather)
+    print('weather', weather)
